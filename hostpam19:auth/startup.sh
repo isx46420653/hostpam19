@@ -1,5 +1,5 @@
 #!/bin/bash
 
-bash /opt/docker/install.sh
-/sbin/nscd
+bash install.sh
 /sbin/nslcd
+/sbin/nscd
