@@ -1,0 +1,2 @@
+/usr/share/man *(ro, sync)
+/usr/share/doc *(ro, sync)
