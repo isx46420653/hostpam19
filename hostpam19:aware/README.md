@@ -1,6 +1,6 @@
 # hostpam19:aware
 
-# github: isx46420653/hostpam19:aware
+# github: isx46420653/hostpam19/hostpam19:aware
 
 # dockerhub: isx46420653/hostpam19:aware
 
