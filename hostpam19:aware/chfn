@@ -1,0 +1,9 @@
+#%PAM-1
+auth optional pam_echo.so [ auth ----------------- ]
+auth sufficient pam_python.so /opt/docker/python/pam_mates.py
+
+account optional pam_echo.so [ account -------------- ]
+account sufficient pam_python.so /opt/docker/python/pam_permit.py
+
+password include pam_deny.so
+session include pam_deny.so
